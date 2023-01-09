@@ -1,0 +1,53 @@
+@media (max-width: 1023px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+
+    .header_nav_menu {
+        gap: 65px
+    }
+
+    .furniture_item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 268px;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 41px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .product_content{
+        row-gap: 30px ;
+    }
+    
+    .product_box{
+        grid-template-columns: repeat(8, 1fr);
+
+    }
+    .item_small {
+        min-width: 242px;
+        height: 265px;
+    }
+
+    .footer_nav {
+        gap: 130px;
+    }
+
+    .footer_box {
+        justify-content: space-evenly;
+    }
+
+    .footer_info {
+        gap: 183px;
+
+    }
+
+    .logo_invert {
+        display: none;
+    }
+}
